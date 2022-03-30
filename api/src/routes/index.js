@@ -40,6 +40,7 @@ const getDbInfo = async () => {
             },
         }
     });
+    
 };
 
 
@@ -52,7 +53,7 @@ const getAllCountries = async () => {
 }
 
 router.get('/countries', async(req, res) => {
-    
+
 })
 
 
